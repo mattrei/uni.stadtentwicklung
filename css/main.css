@@ -151,7 +151,7 @@ main {
 }
 
 #slide-31 .bcg {
-    background-image: url('../img/bcg_slide-1.jpg')
+    background-image: url('../img/schwenderm.jpg')
 }
 
 #slide-32 .bcg {
@@ -443,3 +443,5 @@ main {
         page-break-after: avoid;
     }
 }
+
+#map { height: 300px; }
