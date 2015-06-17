@@ -32,7 +32,7 @@
 
     adjustWindow();
 
-
+ 
     function adjustWindow() {
 
         // Init Skrollr
