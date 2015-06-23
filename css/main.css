@@ -131,6 +131,18 @@ main {
     height: 100%;
     width: 100%;
 }
+
+video#bgvid {
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: url(../img/meislmarkt.jpg) no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* Slide 1 */
 
 #slide-1 .bcg {
@@ -147,7 +159,7 @@ main {
 /* Slide 3 */
 
 #slide-3 .bcg {
-    background-image: url('../img/bcg_slide-3.jpg')
+    background-image: url('../img/schwenderm_abends.jpg')
 }
 
 #slide-31 .bcg {
@@ -155,7 +167,11 @@ main {
 }
 
 #slide-32 .bcg {
-    background-image: url('../img/bcg_slide-2.jpg')
+    background-image: url('../img/meislmarkt.jpg')
+}
+
+#slide-32 .bcg {
+    background-image: url('../img/meislmarkt.jpg')
 }
 
 #slide-33 .bcg {
@@ -188,7 +204,7 @@ main {
 }
 
 #slide-4 .bcg {
-    background-image: url('../img/bcg_slide-4.jpg')
+    background-image: url('../img/ernestine_diwisch.jpg')
 }
 /* Slide 5 */
 
@@ -247,9 +263,15 @@ main {
 .hsContent h2,
 .copy h2 {
     color: #ffffff;
-    font-size: 45px;
+    font-size: 35px;
+    font-weight: bold;
     line-height: 48px;
     margin-bottom: 12px;
+}
+
+.hsContent h3 {
+    color: #ffffff;
+    font-size: 25px;
 }
 
 .hsContent p {
@@ -279,7 +301,7 @@ main {
     border: 0;
     overflow: hidden;
     /* IE 6/7 fallback */
-
+    
     *text-indent: -9999px;
 }
 
@@ -348,7 +370,7 @@ main {
 .clearfix:after {
     content: " ";
     /* 1 */
-
+    
     display: table;
     /* 2 */
 }
@@ -390,7 +412,7 @@ main {
         background: transparent !important;
         color: #000 !important;
         /* Black prints faster: h5bp.com/s */
-
+        
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -407,7 +429,7 @@ main {
     /*
      * Don't show links for images, or javascript/internal links
      */
-
+    
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
@@ -444,4 +466,6 @@ main {
     }
 }
 
-#map { height: 300px; }
+#map {
+    height: 300px;
+}
