@@ -175,7 +175,15 @@ video#bgvid {
 }
 
 #slide-33 .bcg {
-    background-image: url('../img/bcg_slide-3.jpg')
+    background-image: url('../img/wasserwelt.jpg')
+}
+
+#slide-34 .bcg {
+    background-image: url('../img/westfriedhof.jpg')
+}
+
+#slide-35 .bcg {
+    background-image: url('../img/auer_welsbach_park.jpg')
 }
 /* Slide 4 */
 
@@ -213,11 +221,11 @@ video#bgvid {
 }
 
 #slide-5 .bcg {
-    background-image: url('../img/bcg_slide-5.jpg')
+    background-image: url('../img/ende.jpg')
 }
 
 #slide-5 .bcg2 {
-    background-image: url('../img/bcg_slide-5b.jpg');
+    background-image: url('../img/ende.jpg');
     position: fixed;
     bottom: 0;
     left: 0;
@@ -234,11 +242,6 @@ video#bgvid {
     left: 0;
     opacity: 0;
     z-index: 2
-}
-/* Slide 6 */
-
-#slide-6 .bcg {
-    background-image: url('../img/bcg_slide-1.jpg')
 }
 
 .hsContainer {
