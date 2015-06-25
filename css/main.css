@@ -21,6 +21,23 @@ body {
     font-size: 1em;
     line-height: 1.4;
 }
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 2.5;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 3px 10px;
+  color: black;
+  border-left: 2px solid #1958b7;
+  border-right: 2px solid #508fc4;
+  border-top: 2px solid #1958b7;
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -185,6 +202,18 @@ video#bgvid {
 #slide-35 .bcg {
     background-image: url('../img/auer_welsbach_park.jpg')
 }
+
+#slide-36 .bcg {
+  background-image: url('../img/schmelz.jpg')
+}
+
+#slide-37 .bcg {
+  background-image: url('../img/vogelweidepark.jpg')
+}
+
+#slide-37b1 .bcg {
+  background-image: url('../img/lugner_city.jpg')
+}
 /* Slide 4 */
 
 
@@ -223,7 +252,8 @@ video#bgvid {
 }
 
 #slide-5 .bcg {
-    background-image: url('../img/ende.jpg')
+    background-image: url('../img/ende.jpg');
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ende.jpg');*/
 }
 
 #slide-5 .bcg2 {
@@ -281,6 +311,7 @@ video#bgvid {
 .hsContent h3 {
     color: #ffffff;
     font-size: 25px;
+    text-shadow: 2px 2px grey;
 }
 
 .hsContent p {
