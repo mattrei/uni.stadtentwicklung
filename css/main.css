@@ -176,44 +176,57 @@ video#bgvid {
 /* Slide 3 */
 
 #slide-3 .bcg {
-    background-image: url('../img/schwenderm_abends.jpg')
-}
-
-#slide-31 .bcg {
-    background-image: url('../img/schwenderm.jpg')
-}
-
-#slide-32 .bcg {
-    background-image: url('../img/meislmarkt.jpg')
-}
-
-#slide-32 .bcg {
-    background-image: url('../img/meislmarkt.jpg')
-}
-
-#slide-33 .bcg {
     background-image: url('../img/wasserwelt.jpg')
 }
 
+#slide-31 .bcg {
+    background-image: url('../img/meislmarkt.jpg')
+}
+
+#slide-32 .bcg {
+    background-image: url('../img/meislmarkt.jpg')
+}
+
+#slide-32 .bcg {
+    background-image: url('../img/schwenderm.jpg')
+}
+
+#slide-33 .bcg {
+    background-image: url('../img/schwenderm.jpg')
+}
+
 #slide-34 .bcg {
-    background-image: url('../img/westfriedhof.jpg')
+    background-image: url('../img/lugner_city.jpg')
 }
 
 #slide-35 .bcg {
-    background-image: url('../img/auer_welsbach_park.jpg')
+    background-image: url('../img/westfriedhof.jpg')
 }
 
 #slide-36 .bcg {
-  background-image: url('../img/schmelz.jpg')
+  background-image: url('../img/wb.jpg')
 }
 
 #slide-37 .bcg {
+  background-image: url('../img/auer_welsbach_park.jpg')
+}
+
+#slide-37a1 .bcg {
   background-image: url('../img/vogelweidepark.jpg')
 }
 
 #slide-37b1 .bcg {
-  background-image: url('../img/lugner_city.jpg')
+  background-image: url('../img/ernestine_diwisch.jpg')
 }
+
+#slide-38a .bcg {
+  background-image: url('../img/wasserwelt.jpg')
+}
+
+#slide-38c .bcg {
+  background-image: url('../img/wasserwelt_2.jpg')
+}
+
 /* Slide 4 */
 
 
@@ -315,16 +328,17 @@ video#bgvid {
 }
 
 .hsContent p {
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
     color: #b2b2b2;
+    text-align: justify;
 }
 
 .story {
     color: black;
-    font-size: 16px;   
+    font-size: 15px;   
     font-weight: normal;
-    line-height: 1.8;
+    line-height: 1.9;
     width: 600px;
 }
 
